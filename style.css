@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); /* "Anton SC", */
+*{
+  margin: 0;
+  background-color: black;
+}
+#orgMain{
+  height: 100dvh;
+  width: 100vw; /*Change to 70*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    position: fixed;
+}
+#imgMain{
+  position: fixed;
+  width: min(60vw, 700px);
+}
+#underPad{
+  height: 100vh;
+}
+#contentMain{
+  /*min-height: 100vh;*/
+  color: white;
+   z-index: 99;
+   width: 30vw;
+   position: relative;
+   float: right;
+   margin-right: 7vw;
+   background-color: rgba(0,0,0,.8);
+   padding-left: 2vw;
+   line-height: 1.5em;
+   font-family: sans-serif;
+   font-size: 1.3em;
+}
+.contentHead{
+  font-size: 2em;
+  padding-bottom: 2vh;
+  background-color: rgba(0,0,0,0);
+}
