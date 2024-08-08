@@ -11,7 +11,7 @@
   justify-content: center;
     position: fixed;
     transition-property: height;
-    transition: .5s;
+    transition: height .5s;
 }
 #imgMain{
   position: fixed;
