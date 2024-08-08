@@ -4,7 +4,7 @@
   background-color: black;
 }
 #orgMain{
-  height: 100dvh;
+  height: 100vh; /*dvh ?*/
   width: 100vw; /*Change to 70*/
   display: flex;
   align-items: center;
