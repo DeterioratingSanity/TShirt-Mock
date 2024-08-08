@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
     position: fixed;
+    transition-property: height;
     transition: .5s;
 }
 #imgMain{
